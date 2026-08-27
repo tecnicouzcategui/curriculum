@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 :root {
-    --glass-bg: rgba(20, 25, 40, 0.25);
+    --glass-bg: rgba(20, 25, 40, 0.15);
     --glass-border: rgba(255, 255, 255, 0.1);
     --accent: #4fc3f7;
     --text: #ffffff;
@@ -78,8 +78,8 @@ body {
 
 .glass-panel {
     background: var(--glass-bg);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border: 1px solid var(--glass-border);
     border-radius: 16px;
     padding: 30px;
